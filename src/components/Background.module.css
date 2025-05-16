@@ -1,0 +1,32 @@
+.background {
+    overflow: hidden;
+    min-height: 100vh;
+    background-image: 
+        radial-gradient(closest-side, rgba(208, 190, 255, 0.763) 0%, rgba(170, 142, 245, 0) 70%),
+        linear-gradient(to right, rgb(254, 243, 200) 0%, rgba(255,255,255,1) 100%);
+    background-size: 
+        90vmax 90vmax,
+        100% 100%;
+    background-position:0vmax -20vmax, 0 0;
+    background-repeat: no-repeat;
+    animation: 15s movement linear infinite;
+}
+
+@keyframes movement {
+    0%, 100% {
+        background-position:0vmax -20vmax, 0 0;
+    }
+    25% {
+        background-position:20vmax -20vmax, 0 0;
+    }
+    50% {
+        background-position:0vmax -20vmax, 0 0;
+    }
+    75% {
+        background-position:-20vmax -20vmax, 0 0;
+    }
+  }
+
+.blur {
+    backdrop-filter: blur(1rem);
+}

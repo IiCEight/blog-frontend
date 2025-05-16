@@ -1,0 +1,39 @@
+/* override the default style  */
+* {
+    margin: 0;
+    padding: 0;
+    /* 使用替代盒模型 */
+    box-sizing: border-box;
+}
+
+:root {
+    --colorPink: #FFC8DD;
+    --colorLightPink: #FFE7F0;
+    --colorGray: #E3E3E3;
+    --colorBlue: #AAD6FF;
+    --colorBlack: #410019;
+    --colorPurple : #8C53AC;
+    --colorDarkPurple: #3E254D;
+    --colorViolet: #DEC7FF;
+    --colorBoxShadow: rgba(0, 0, 0, 19%);
+    --gradPinkToBlue: linear-gradient(to bottom,var(--colorPink),20%,var(--colorGray), var(--colorBlue));
+
+    --menuBtnSize: 7rem;
+}
+
+html {
+    /* 10px */
+    font-size: 62.5%;
+}
+
+
+body {
+    /* 通过继承设置所有元素的字体 */
+    font-family: "Cormorant Garamond", serif;
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 1.6rem;
+    /* 字体行高 */
+    line-height: 1.7;  
+}
+

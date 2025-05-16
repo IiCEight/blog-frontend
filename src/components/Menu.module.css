@@ -1,0 +1,28 @@
+
+.overlay {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    height: var(--menuBtnSize);
+    width: var(--menuBtnSize);
+    margin: 2rem;
+    border-radius: 100%;
+    background-color: var(--colorViolet);
+    transition: all 0.4s;
+    z-index: 15;
+}
+
+.menu {
+    position: absolute;
+    visibility: hidden;
+    top: 25vh;
+    left: 20vw;
+    z-index: 25;
+}
+
+.menuOption {
+    font-size: 8rem;
+    list-style: none;
+    opacity: 0;
+    transition: all 0.4s 0.1s;
+}

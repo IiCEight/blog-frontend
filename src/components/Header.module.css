@@ -1,0 +1,51 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top : 0rem;
+    padding: 1rem 5rem;
+    background-color: transparent;
+    z-index: 1;
+}
+
+.logo {
+    display: inline-block;
+    font-family: "Playfair Display", serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.link {
+    text-decoration: none;
+    color: var(--colorDarkPurple);
+}
+
+.textStyle {
+    font-style: italic;
+}
+
+.btn {
+    position: absolute;
+    top: 0;
+    right: 2rem;
+    height: var(--menuBtnSize);
+    width: var(--menuBtnSize);
+    margin: 2rem;
+    font-family: inherit;
+    border: none;
+    border-radius: 100%;
+    background-color: var(--colorViolet);
+    z-index: 20;
+    transition: all 0.5s;
+}
+
+.btnText {
+    display: inline-block;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.btn:hover {
+    color: var(--colorLightPink);
+    background-color: var(--colorDarkPurple);
+}
