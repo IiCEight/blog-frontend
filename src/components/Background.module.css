@@ -1,5 +1,5 @@
 .background {
-    overflow: hidden;
+    /* overflow: hidden; */
     min-height: 100vh;
     background-image: 
         radial-gradient(closest-side, rgba(208, 190, 255, 0.763) 0%, rgba(170, 142, 245, 0) 70%),

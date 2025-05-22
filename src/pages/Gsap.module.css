@@ -1,0 +1,48 @@
+.title {
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.animatedBox {
+  width: 120px;
+  height: 120px;
+  background: #4ade80;
+  margin: 2rem auto;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 2px 8px #0002;
+}
+
+.timelineDemo {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.timelineBox {
+  width: 60px;
+  height: 60px;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #f87171, #60a5fa, #fbbf24);
+  box-shadow: 0 2px 8px #0002;
+}
+
+.scrollBox {
+  width: 200px;
+  height: 80px;
+  background: #a78bfa;
+  margin: 6rem auto;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 18px;
+  box-shadow: 0 2px 8px #0002;
+}

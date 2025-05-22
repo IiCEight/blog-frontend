@@ -1,8 +1,20 @@
 .container {
-    overflow-x: hidden;
 }
 
 
 .blogSection {
     height: 80rem;
+}
+
+
+.enter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: var(--pink);
+}
+
+.enterText {
+    text-decoration: none;
 }

@@ -17,7 +17,7 @@ function Header({isHomePage}) {
             <header className={styles.header}>
                 <Logo isHomePage = {isHomePage} />
                 <button className= {styles.btn} onClick={handleClick}
-                        style = {showMenu ? {backgroundColor: "var(--colorPink)" } : {}}
+                        style = {showMenu ? {backgroundColor: "var(--pink)" } : {}}
                 >
                     <span className = {styles.btnText}>{showMenu ? "X" : "MENU"}</span>
                 </ button>

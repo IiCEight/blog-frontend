@@ -35,7 +35,7 @@ function ArticleItem({article})
     ) 
 }
 
-const url = "http://localhost:8080/admin/article/page"
+const url = "http://localhost:8080/article/page"
 
 export default function ArticleCatalog()
 {

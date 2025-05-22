@@ -18,7 +18,7 @@
     box-shadow:  0 0.5px 1.5px var(--colorBoxShadow);
     border-radius: 3rem;
     overflow: hidden;
-    /* background-image: linear-gradient(to right,var(--colorPink),20%,var(--colorGray), var(--colorBlue)); */
+    /* background-image: linear-gradient(to right,var(--pink),20%,var(--colorGray), var(--blue)); */
     background-color: #f8fafc;
     transition: all 0.4s ease-out;
 }

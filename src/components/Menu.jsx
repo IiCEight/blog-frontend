@@ -4,7 +4,7 @@ import styles from "./Menu.module.css"
 function Menu({showMenu}) {
     
     const waveStyle = {
-        transform: "scale(50)"
+        transform: "scale(53)"
     }
 
     return (

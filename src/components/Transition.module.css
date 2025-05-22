@@ -1,9 +1,17 @@
-.transitionLay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
+.container {
+    position: relative;
+    top:-100vh;
+    width: 100vw;
     height: 100vh;
-    background-color: var(--colorPink);
+    overflow-x: hidden;
+}
+
+.transitionLay {
+    position: absolute;
+    /* top: 100vh; */
+    /* left: 0; */
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--pink);
     z-index: 100000;
 }

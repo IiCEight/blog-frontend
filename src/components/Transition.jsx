@@ -23,13 +23,15 @@ function Transition() {
     }
     
     return (
-        <motion.div className={styles.transitionLay}
-            variants={animate}
-            initial = "initial"
-            animate = "end"
-            exit = "exit"
-        >
-        </motion.div>
+        // <div className={styles.container}>
+            <motion.div className={styles.transitionLay}
+                variants={animate}
+                initial = "initial"
+                animate = "end"
+                exit = "exit"
+                >
+            </motion.div>
+        // </div>
     )
 }
 
