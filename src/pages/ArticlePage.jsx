@@ -14,7 +14,7 @@ function Article() {
     const { id } = useParams()
 
     const [article, setArticle] = useState({});
-    const url = `http://localhost:8080/article/${id}`
+    const url = `http://8.137.17.37/api/article/${id}`
     
     useEffect(() => {
         async function getArticle()

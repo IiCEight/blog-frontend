@@ -4,7 +4,7 @@ import styles from "./Menu.module.css"
 function Menu({showMenu}) {
     
     const waveStyle = {
-        transform: "scale(53)"
+        transform: "scale(59)"
     }
 
     return (
@@ -12,7 +12,6 @@ function Menu({showMenu}) {
             <div className={styles.overlay} style = {showMenu ? waveStyle : {}} ></div>
             <MenuOption showMenu = {showMenu} />
         </>
-        
     )
 }
 
