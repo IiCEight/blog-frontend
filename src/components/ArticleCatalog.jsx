@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import axios from "axios"
 import styles from "./ArticleCatalog.module.css"
 import { motion } from "framer-motion";
+import config from "../config/config.js";
 
 function ArticleItem({article})
 {
@@ -35,7 +36,7 @@ function ArticleItem({article})
     ) 
 }
 
-const url = "http://8.137.17.37/api/article/page"
+const url = `${config.apiBaseURL}/article/list`;
 
 export default function ArticleCatalog()
 {
